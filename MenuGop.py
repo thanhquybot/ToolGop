@@ -84,9 +84,10 @@ print (Colorate.Diagonal(Colors.blue_to_purple, "╔═════════�
 print (Colorate.Diagonal(Colors.blue_to_purple, "║  Tool Aotu Golike       ║"))
 print (Colorate.Diagonal(Colors.blue_to_purple, "╚═════════════════════════╝"))
 print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.1 | => Tool Golike TikTok"))
-print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.2 | => Tool Golike Instagram"))
-print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.3 | => Tool Golike Threads"))
-print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.4 | => Tool Golike Linkedin"))
+print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.2 | => Tool Golike Twitter"))
+print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.3 | => Tool Golike Instagram"))
+print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.4 | => Tool Golike Threads"))
+print (Colorate.Diagonal(Colors.red_to_white, "● [🧸] ➩ Nhập Số | 1.5 | => Tool Golike Linkedin"))
 print (Colorate.Diagonal(Colors.green_to_cyan, "──────────────────────────────────────────────────────────────"))
 chon = str(input (Colorate.Diagonal(Colors.blue_to_cyan, '● [🧸] ➩ Nhập Số: ')))
 text='\033[1;37m● \033[1;36mĐang Vào Tool...'
@@ -94,10 +95,12 @@ pr(text)
 if chon == '1.1' :
     exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeTikTok.py').text)
 if chon == '1.2' :
-    exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeInstagram.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeTwitter.py').text)
 if chon == '1.3' :
-    exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeThreads.py').text)
+    exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeInstagram.py').text)
 if chon == '1.4' :
+    exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeThreads.py').text)
+if chon == '1.5' :
     exec(requests.get('https://raw.githubusercontent.com/thanhquybot/ToolGop/main/Golike/GolikeLinkedin.py').text)
 else :
      exit()
